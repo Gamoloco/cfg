@@ -2,6 +2,12 @@
 
 A Go library to work with JSON configuration files
 
+[![GoDoc](https://godoc.org/gopkg.in/Gamoloco/cfg.v1?status.svg)](https://godoc.org/gopkg.in/Gamoloco/cfg.v1)
+
+## Install
+
+`go get gopkg.in/Gamoloco/cfg.v1`
+
 ## Usage
 
 ```json
