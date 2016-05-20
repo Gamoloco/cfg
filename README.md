@@ -3,7 +3,7 @@
 A Go library to work with JSON configuration files
 
 [![GoDoc](https://godoc.org/gopkg.in/Gamoloco/cfg.v1?status.svg)](https://godoc.org/gopkg.in/Gamoloco/cfg.v1)
-
+[![Build Status](https://travis-ci.org/Gamoloco/cfg.svg?branch=master)](https://travis-ci.org/Gamoloco/cfg)
 ## Install
 
 `go get gopkg.in/Gamoloco/cfg.v1`
