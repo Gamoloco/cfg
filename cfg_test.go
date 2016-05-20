@@ -10,15 +10,15 @@ type nested2 struct {
 	B int
 	C bool
 	D []string
-	E float64 `cfg:"optional"`
+	E float64
 }
 
 type nested1 struct {
 	A string
 	B int
 	C bool
-	D []string
-	E float64 `cfg:"optional"`
+	D []string `json:"D" cfg:"optional"`
+	E float64
 	F nested2
 }
 
@@ -27,7 +27,7 @@ type test struct {
 	B int
 	C bool
 	D []string
-	E float64 `cfg:"optional"`
+	E float64
 
 	F nested1
 }
@@ -110,13 +110,13 @@ func testOptional(t *testing.T) {
 				A: "hello",
 				B: 4,
 				C: true,
-				D: []string{"a", "b"},
 				E: 4.444,
 				F: nested2{
 					A: "hello",
 					B: 4,
 					C: true,
 					D: []string{"a", "b"},
+					E: 4.444,
 				},
 			},
 		}
